@@ -1,0 +1,88 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Abel);
+html {
+  font-size: 62.5%; }
+
+body {
+  color: #4c4c4c;
+  font-size: 1.2rem;
+  font-family: "游ゴシック", YuGothic, "メイリオ", Verdana, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  line-height: 1.4;
+  letter-spacing: 0.1em;
+  background-color: #ffffff;
+  text-align: center; }
+
+a {
+  text-decoration: none; }
+
+.text-center {
+  text-align: center; }
+
+header {
+  width: auto;
+  height: 500px;
+  background-image: url(images/cafe.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+h1 {
+  color: #364D39;
+  font-size: 6.2rem;
+  margin: 40px 0; }
+
+#guide {
+  background-color: #EBE084; }
+  #guide .container {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    -webkit-flex-direction: row;
+    flex-direction: row; }
+  #guide .guide-box {
+    -webkit-flex: 1;
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+  #guide h2 {
+    font-size: 3.0rem;
+    color: #6F984C; }
+
+footer {
+  padding: 40px; }
+  footer h3 {
+    font-size: 2.0rem;
+    color: #6F984C; }
+  footer .btn a {
+    background-color: #364D39;
+    color: #ffffff;
+    font-size: 15px;
+    width: 150px;
+    display: block;
+    text-align: center;
+    line-height: 25px;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto; }
+
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%;
+    height: 250px; }
+
+  #guide .container {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    padding: 20px 0; }
+  #guide .guide-box {
+    margin: 10px 20px; } }
+
+/*# sourceMappingURL=style.css.map */
